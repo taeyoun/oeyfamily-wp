@@ -1,5 +1,5 @@
 <?php 
-/* Save on 2013-11-22 16:46 */ 
+/* Save on 2013-11-27 15:10 */ 
 return array (
   'sidebar' => 'right',
   'layout' => 
@@ -32,13 +32,13 @@ return array (
   ),
   'content' => 
   array (
-    'date' => false,
+    'date' => true,
     'links' => 
     array (
       'author' => false,
-      'category' => false,
-      'tags' => false,
-      'comments' => false,
+      'category' => true,
+      'tags' => true,
+      'comments' => true,
     ),
     'widget' => 
     array (
@@ -103,9 +103,9 @@ return array (
     'pos' => 'right bottom',
     'width' => false,
     'flag' => true,
-    'home' => true,
-    'rss' => true,
-    'search' => true,
+    'home' => false,
+    'rss' => false,
+    'search' => false,
     'pages' => 
     array (
       'depth' => '0',
@@ -115,7 +115,7 @@ return array (
     array (
       'depth' => '0',
       'exclude' => '0',
-      'group' => true,
+      'group' => false,
       'title' => '',
     ),
   ),
@@ -157,10 +157,10 @@ return array (
   array (
     'body' => 
     array (
-      'src' => 'vsd_australia_outline.gif',
+      'src' => '',
       'pos' => 'left top',
       'repeat' => 'no-repeat',
-      'fixed' => true,
+      'fixed' => false,
     ),
     'wrap' => 
     array (
